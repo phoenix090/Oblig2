@@ -1,15 +1,17 @@
 #!/bin/bash
 
+
 program=chrome
 
-while read ans
- do
- 	mjfault=$(ps --no-headers -o maj_flt "$ans")
+#fpid=$(ps aux | grep -i firefox | awk {'print $2'})
+array=($(pgrep -x chrome))
 
- 	if [ "$mjfault" -gt 1000 ]
- 		then
- 			echo "$program $ans har forårsaket $majflt page faults (mer enn 1000!)"
- 	else
- 		 	echo "$program $ans har forårsaket $majflt page faults"
-	fi
-done < <(pgrep $program)
+for i in ${array[*]}; do
+
+  antall=$(ps --no-headers -o maj_flt $i)
+  if [ $antall -gt 1000 ]; then
+	   echo "$program $i har forårsaket $antall pagefaults (mer enn 1000!)"
+  else
+	   echo "$program $i har forårsaket $antall"
+  fi
+done
