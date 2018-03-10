@@ -1,0 +1,21 @@
+
+******** Minne info om prosess med PID 11102 *********
+Total bruk av virtuelt minne (VmSize): 1079620 kB
+Mende privat virtuelt minne (VmData-VmStk+VmExe): 516048 kB
+Mengde shared virtuelt minne (VmLib): 48460 kB
+Total bruk av fysisk minne (VmRSS): 151208 kB
+Mengde fysisk minne som benyttes til page table (VmPTE): 1288 kB
+
+******** Minne info om prosess med PID 11103 *********
+Total bruk av virtuelt minne (VmSize): 423996 kB
+Mende privat virtuelt minne (VmData-VmStk+VmExe): 125088 kB
+Mengde shared virtuelt minne (VmLib): 34928 kB
+Total bruk av fysisk minne (VmRSS): 41536 kB
+Mengde fysisk minne som benyttes til page table (VmPTE): 672 kB
+
+******** Minne info om prosess med PID 11104 *********
+Total bruk av virtuelt minne (VmSize): 423996 kB
+Mende privat virtuelt minne (VmData-VmStk+VmExe): 125088 kB
+Mengde shared virtuelt minne (VmLib): 34928 kB
+Total bruk av fysisk minne (VmRSS): 12940 kB
+Mengde fysisk minne som benyttes til page table (VmPTE): 512 kB
